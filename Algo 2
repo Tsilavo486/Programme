@@ -1,0 +1,11 @@
+*verifier_majorite*
+Variable :
+age:entier
+Début :
+Écrire :"Quel est votre age?"
+Lire:(age)
+si age>18
+Affichage:"vous etes majeur"
+sinon si age<18
+Affichage :"vous êtes mineurs"
+Fin
