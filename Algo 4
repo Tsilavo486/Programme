@@ -1,0 +1,16 @@
+*Resultat_Match*
+variable :
+scoreEquipeA:entier
+ScoreEquipeB:entier
+Début :
+Écrire :"score de l'équipe A"
+Lire:(ScoreEquipeA)
+Écrire :"score de l'équipe B"
+Lire:(ScoreEquipeB)
+Si ScoreEquipeA>ScoreEquipeB alors
+Affichage:"l'équipe A a gagné le match "
+Sinon si ScoreEquipeA<ScoreEquipeB alors 
+Affichage "l'équipe B a gagné le match"
+Sinon si ScoreEquipeA =ScoreEquipeB alors
+Affichage"C'est une match nul"
+Fin
