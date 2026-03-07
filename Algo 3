@@ -1,0 +1,13 @@
+*Surface-rectangle*
+  variable :
+L:reel
+l:reel
+Surf:reel
+  Début :
+Écrire :"Entrez la longueur"
+  Lire:(longueur)
+Écrire :"Entrez la larguer"
+  Lire:(largeur)
+Surf<--l×L
+Affichage:(La surface est"Surf")
+Fin
