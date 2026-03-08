@@ -1,0 +1,19 @@
+*Calcul_Moyenne_Scolaire*
+Variable :
+NoteMaths ,NoteSPC :reel
+CoefMaths,CoefSPC:reel
+SommeCoef,TotalPoints:reel
+Moyenne :reel
+Début :
+Écrire :"Entrez la note de maths"
+Lire(NoteMaths)
+Écrire :"entrez la note de SPC"
+Lire(NoteSPC)
+Sommecoef<--CoefMaths+CoefSPC
+TotalPoints<--NoteMaths+NoteSPC
+Moyenne<--totalPoints/SommeCoef
+Si Moyenne>10 alors 
+Affichage:"vous êtes admis"
+Sinon si Moyenne<10 alors 
+Affichage:"vous êtes Renvoyé''
+Fin
