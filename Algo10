@@ -1,0 +1,13 @@
+*Calcul_Points_Classement*
+Variable :
+NbrVict,NbrNul,NbrDef:entier
+TotalPoints:Entier
+Début :
+Écrire :"nombre de victoire"
+Lire(NbrVict)
+Écrire :"nombre de match nuls"
+Lire(NbrNul)
+TotalPoints<---NbrVict+NbrNul
+Affichage:"le total des points au classement est:TotalPoints"
+
+Fin
