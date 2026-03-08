@@ -1,0 +1,37 @@
+*Gestion_Match_Foot *
+Variable :
+EquiDom :chaine
+EquiExt :chaine
+ButDom:entier
+ButExt:entier
+Temps :entier
+Changement :entier
+Début :
+Écrire'"Nom de l'équipe à domicile"
+Lire(EquiDom)
+Écrire"Nom de l'équipe à extérieur"
+Lire(EquiExt)
+ButDom<--0
+ButExt<--0
+Changement<--0
+Si temps<90 alors 
+Écrire :"une action s'est passe"
+Lire(Action)
+Et si Action=1 alors 
+ButDom<---ButDom+1
+Sinon si Action =2 alors
+ButExt<--ButExt+1
+Sinon si Action=3 alors
+Changement<---changement+1
+Fin si
+Temps<---Temps+15
+Affichage :"Score Final"
+Si ButDom>ButExt alors
+Affichage:"équipe domicile gagne"
+Sinon si ButDom<ButExt alors
+Affichage :"équipe extérieur gagne "
+Sinon si ButDom=ButExt alors
+Affichage:"match nul"
+Sinon si ButExt=ButDom alors
+Affichage:"match nul"
+Fin
