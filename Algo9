@@ -1,0 +1,18 @@
+*Controle_Arrivee*
+Variable :
+Heure_arrivee:entier
+Heure_limite:entier
+Minuite_arrivee:entier
+Minute_limite :entier
+Début :
+Écrire :"Entrez l'heure de votre arrivée"
+Lire(heure_arrivee)
+Écrire :"Entrez les minutes de votre arrivée"
+Lire(Minute_arrivee)
+Si heure_arrivee<heure_limite alors
+Affichage:"vous êtes e avance"
+Sinon si heure_arrivee>heure_limite
+Affichage:"vous êtes en retards"
+Sinon si heure_arrivee=heure_limite alors
+Affichage:"vous êtes pile à l'heure"
+Fin
