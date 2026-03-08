@@ -1,0 +1,23 @@
+*Resultat_Admission*
+Variable :
+Moyenne :reel
+Resultat :Admis/Ajourne
+Metion:chaine
+Début :
+Écrire :"Entrez le moyenne"
+Lire(Moyenne)
+Si Moyenne<10 alors
+Afficahge :"vous êtes Ajourné"
+Sinon si Moyenne>10 alors
+Affichage :"vous êtes admis"
+Mention<---Passable
+Sinon si Moyenne>12 alors 
+Affichage :"vous êtes admis"
+Mention<--assez_bien
+Sinon si Moyenne>14 alors
+Affichage:" vous êtes admis"
+Mention<---bien
+Sinon si Moyenne>16 alors 
+Affichage :"vous êtes admis"
+Mention<---tres_bien
+Fin
